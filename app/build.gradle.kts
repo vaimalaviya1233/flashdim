@@ -6,18 +6,17 @@ import java.util.Properties
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.kotlinter) // lintKotlin, formatKotlin
-    alias(libs.plugins.dexcount) // :app:countReleaseDexMethods
     alias(libs.plugins.bundletool)
     alias(libs.plugins.baselineprofile)
 }
 
 android {
     namespace = "com.cyb3rko.flashdim"
-    compileSdk = 36
+    compileSdk = 37
     defaultConfig {
         applicationId = "com.cyb3rko.flashdim"
         minSdk = 33
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 31
         versionName = "2.4.3"
         resValue("string", "app_name", "FlashDim Dev")
@@ -61,6 +60,7 @@ android {
     buildFeatures {
         viewBinding = true
         buildConfig = true
+        resValues = true
     }
     bundle {
         storeArchive {

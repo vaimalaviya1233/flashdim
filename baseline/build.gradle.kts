@@ -16,7 +16,7 @@ plugins {
 
 android {
     namespace = "com.cyb3rko.flashdim.baseline"
-    compileSdk = 36
+    compileSdk = 37
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_21
@@ -31,7 +31,7 @@ android {
 
     defaultConfig {
         minSdk = 33
-        targetSdk = 36
+        targetSdk = 37
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

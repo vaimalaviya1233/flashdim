@@ -75,16 +75,30 @@ internal class Camera(activity: AppCompatActivity) {
         fun doesDeviceHaveFlash(packageManager: PackageManager): Boolean =
             packageManager.hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH)
 
+        fun getValidFlashLevel(
+            cameraManager: CameraManager,
+            cameraId: String,
+            requestedLevel: Int
+        ): Int {
+            if (requestedLevel < 1) return -1
+
+            val maxLevel = cameraManager.getCameraCharacteristics(cameraId)
+                .get(CameraCharacteristics.FLASH_INFO_STRENGTH_MAXIMUM_LEVEL)
+                ?: return -1
+            return requestedLevel.coerceAtMost(maxLevel)
+        }
+
         fun sendLightLevel(context: Context, level: Int, activate: Boolean) {
             try {
                 val cameraManager = context.getSystemService(Context.CAMERA_SERVICE)
                     as CameraManager
                 val cameraId = cameraManager.cameraIdList[0]
                 if (activate) {
-                    if (level == -1) {
+                    val validLevel = getValidFlashLevel(cameraManager, cameraId, level)
+                    if (validLevel == -1) {
                         cameraManager.setTorchMode(cameraId, true)
                     } else {
-                        cameraManager.turnOnTorchWithStrengthLevel(cameraId, level)
+                        cameraManager.turnOnTorchWithStrengthLevel(cameraId, validLevel)
                     }
                 } else {
                     cameraManager.setTorchMode(cameraId, false)

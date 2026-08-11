@@ -96,7 +96,8 @@ class MainActivity : AppCompatActivity() {
         maxLevel = camera.maxLevel
         Safe.initialize(this)
         Safe.writeInt(Safe.MAX_LEVEL, maxLevel)
-        if (Safe.getInt(Safe.PREFERRED_LEVEL, -1) == -1) {
+        val preferredLevel = Safe.getInt(Safe.PREFERRED_LEVEL, -1)
+        if (maxLevel > 0 && preferredLevel !in 1..maxLevel) {
             Safe.writeInt(Safe.PREFERRED_LEVEL, maxLevel)
         }
 

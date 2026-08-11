@@ -7,6 +7,7 @@ ACE (Global) BUZZ 6 Pro PLUS,ACE BUZZ_6_Pro_PLUS,ACE (Global),BUZZ_6_Pro_PLUS,fa
 Acer One 8 T4-82L,Acer AcerOne8T4-82L,Acer,AcerOne8T4-82L,false
 ADVAN ADVAN_X1,ADVAN ADVAN_X1,ADVAN,ADVAN_X1,false
 AIPLUS AI+ Nova 1 5G,AIPLUS Nova_1_5G,AIPLUS,Nova_1_5G,false
+AIPLUS AI+ Nova 2 5G,AIPLUS Nova_2_5G,AIPLUS,Nova_2_5G,false
 AIPLUS AI+ Pulse 1,AIPLUS Pulse_1,AIPLUS,Pulse_1,false
 Anya Anya_S558,Anya S558,Anya,S558,false
 Aspera AS-10,Aspera AS-10,Aspera,AS-10,false
@@ -52,6 +53,9 @@ Blu G73,BLU G0771,Blu,G0771,false
 Blu G93,BLU G0910,Blu,G0910,false
 Blu J10L,BLU J0140,Blu,J0140,false
 Blu J10L,BLU J0150,Blu,J0150,false
+BraveTechs Brave_T3Pro,BraveTechs T3_Pro,BraveTechs,T3_Pro,false
+BraveTechs BraveT3Max,BraveTechs T3Max,BraveTechs,T3Max,false
+BraveTechs BraveT3Ultra,BraveTechs T3Ultra,BraveTechs,T3Ultra,false
 BraX BraX3,BraX BraX3,BraX,BraX3,false
 Cloud_Mobile Stratus_C8,Cloud_Mobile Stratus_C8,Cloud_Mobile,Cloud_Mobile Stratus_C8,false
 Coolpad coolpad CP12s,coolpad CP12s,Coolpad,CP12s,false
@@ -114,6 +118,7 @@ Google Pixel 4a,google sunfish,Google,sunfish,false
 Google Pixel 4a 5G,google bramble,Google,bramble,false
 Google Pixel 5,google redfin,Google,redfin,false
 Google Pixel 5a 5G,google barbet,Google,barbet,false
+Helio helio 22,helio helio_22,Helio,helio_22,false
 Helio helio 40,helio helio_40,Helio,helio_40,false
 Helio helio 50,helio helio_50,Helio,helio_50,false
 Helio helio 90,helio helio_90,Helio,helio_90,false
@@ -143,6 +148,7 @@ Honor HONOR 400 Lite,HONOR HNABR-M,Honor,HNABR-M,false
 Honor HONOR 400 Smart,HONOR HNLGN-Q1,Honor,HNLGN-Q1,false
 Honor HONOR 50,HONOR HNNTH,Honor,HNNTH,false
 Honor HONOR 50 Lite,HONOR HNNTN,Honor,HNNTN,false
+Honor HONOR 600 Lite,HONOR HNLNA-M1,Honor,HNLNA-M1,false
 Honor HONOR 70,HONOR HNFNE,Honor,HNFNE,false
 Honor HONOR 90,HONOR HNREA,Honor,HNREA,false
 Honor HONOR 90 Lite,HONOR HNCRT-M2,Honor,HNCRT-M2,false
@@ -253,6 +259,7 @@ Itel A06,Itel itel-A669W,Itel,A669W,false
 Itel A671L-OP,Itel itel-A671L,Itel,itel-A671L,false
 Itel A70,Itel itel-A665L,Itel,itel-A665L,false
 Itel City100,Itel itel-C671L,Itel,itel-C671L,false
+Itel itel A200+,itel itel-A676L,Itel,itel-A676L,false
 Itel itel A50,Itel itel-A667L,Itel,itel-A667L,false
 Itel itel A50,Itel itel-A667LP,Itel,itel-A667LP,false
 Itel itel A50C,Itel itel-A669L,Itel,itel-A669L,false
@@ -305,6 +312,7 @@ LGE VELVET,lge caymanlm,LGE,mcaymanlm,false
 Logicom Elio,Logicom Elio,Logicom,Elio,false
 LT_Mobile LT_8106,LT LT_8106,LT_Mobile,LT_8106,false
 LT_Mobile LT_8501,LT LT_8501,LT_Mobile,LT_8501,false
+LT_Mobile LT_K80,LT_mobile LT_mobile_K80,LT_mobile,LT_mobile_K80,false
 LT_Mobile LT_mobile_C26,LT_mobile LT_mobile_C26,LT_Mobile,LT_mobile_C26,false
 LT_Mobile LT_mobile_E16,LT_mobile LT_mobile_E16,LT_Mobile,LT_mobile_E16,false
 M-KOPA M10,HMD NYX,M-KOPA,NYX,false
@@ -330,12 +338,14 @@ Motorola moto e14,motorola lionl,Motorola,lionl,false
 Motorola moto e15,motorola lamulg,Motorola,lamulg,false
 Motorola moto edge X30,motorola hiphic,Motorola,hiphic,false
 Motorola moto g - 2025,motorola kansas,Motorola,kansas,false
+Motorola moto g - 2026,motorola utah,Motorola,utah,false
 Motorola moto g 5G - 2023,motorola pnangn,Motorola,pnangn,false
 Motorola moto g 5G - 2024,motorola fogo,Motorola,fogo,false
 Motorola moto g 5G (2022),motorola austin,Motorola,austin,false
 Motorola moto g play - 2023,motorola maui,Motorola,maui,false
 Motorola moto g play - 2024,motorola fogona,Motorola,fogona,false
 Motorola moto g power - 2025,motorola vegas,Motorola,cancunn,false
+Motorola moto g power - 2026,motorola vegas26,Motorola,vegas26,false
 Motorola moto g power 5G - 2023,motorola devonn,Motorola,devonn,false
 Motorola moto g power 5G - 2024,motorola cancunn,Motorola,cancunn,false
 Motorola moto g stylus 5G - 2023,motorola genevn,Motorola,genevn,false
@@ -540,6 +550,7 @@ Oppo Reno12 5G,OPPO OP5ADDL1,Oppo,OP5ADDL1,false
 Oppo Reno12 F,OPPO OP5EB1L1,Oppo,OP5EB1L1,false
 Oppo Reno12 F 5G,OPPO OP5AF1L1,Oppo,OP5AF1L1,false
 Oppo Reno12 F 5G,OPPO OP5AF2L1,Oppo,OP5AF2L1,false
+Oppo Reno13 F,OPPO OP5ECBL1,Oppo,OP5ECBL1,false
 Oppo Reno5 Lite,OPPO OP4F43L1,Oppo,OP4F43L1,false
 Oppo Reno6 Pro+ 5G,OPPO OP4EC1,Oppo,OP4EC1,false
 Oppo Reno7 中国版,OPPO OP5227,Oppo,OP5227,false
@@ -694,6 +705,7 @@ realme narzo 60 5G,realme RE58B1L1,realme,RE58B1L1,false
 realme NARZO 70 Pro 5G,realme RE5C86L1,realme,RE5C86L1,false
 realme narzo N53,realme RE58C6,realme,RE58C6,false
 realme Note 60x,realme RE6095,realme,RE6095,false
+realme P4 Lite,realme RE648B,realme,RE648B,false
 realme Q5,realme RE547D,realme,RE547D,false
 realme Q5 Pro,realme RE5477,realme,RE5477,false
 realme realme 9 5G Speed Edition,realme RE54BFL1,realme,RE54BFL1,false
@@ -887,6 +899,7 @@ Sony Xperia 1 III,Sony XQ-BC72,Sony,XQ-BC72,false
 Sony Xperia 1 IV,docomo SO-51C,Sony,SO-51C,false
 Sony Xperia 1 IV,Sony XQ-CT54,Sony,XQ-CT54,false
 Sony Xperia 1 IV,Sony XQ-CT72,Sony,XQ-CT72,false
+Sony Xperia 1 V,KDDI SOG10,Sony,SOG10,false
 Sony Xperia 1 V,Sony XQ-DQ54,Sony,XQ-DQ54,false
 Sony Xperia 1 V,Sony XQ-DQ62,Sony,XQ-DQ62,false
 Sony Xperia 1 V,Sony XQ-DQ72,Sony,XQ-DQ72,false
